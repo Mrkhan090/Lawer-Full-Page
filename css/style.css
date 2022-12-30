@@ -1,0 +1,446 @@
+/*css structure start here*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+/*css structure end here*/
+
+/*global css for title start*/
+
+.title{
+	width: 100%;
+}
+
+.title h1{
+	font-size: 44px;
+	line-height: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #28377e;
+    margin: 0px 0px 20px;
+}
+
+/*global css for title end*/
+
+/*header css start here*/
+.header{
+	width: 100%;
+	background: #fff;
+	position: fixed;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 20px;
+    color: #28377e;
+    transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #f1602a;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	color: #f1602a;
+}
+/*header css end here*/
+
+/*slider css start here*/
+
+.slider{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.slider .inner-slider{
+	width: 100%;
+	padding: 80px 0px 30px;
+}
+
+.inner-slider h1{
+	font-size: 64px;
+	line-height: 1.4;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.inner-slider .arrow{
+	width: 100%;
+	padding: 200px 0px 0px;
+}
+
+.inner-slider .arrow .fa{
+	font-size: 30px;
+	color: #fff;
+}
+
+/*slider css end here*/
+
+/*about-us css start here*/
+
+.about-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.about-us .title{
+	margin: 50px 0px 0px;
+}
+
+.about-us .title p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+}
+
+.about-us .inner-img{
+	width: 100%;
+	text-align: right;
+}
+
+/*about-us css end here*/
+
+
+/*what-we-do css start here*/
+
+.what-we{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bg4.png") center top no-repeat;
+	background-size: cover;
+}
+
+.what-we .title{
+	text-align: center;
+	padding: 0px 0px 80px;
+}
+
+.what-we .card{
+	border: 0px;
+	border-radius: 0px;
+}
+
+.what-we .card .card-img{
+	border-radius: 0px;
+}
+
+.what-we .card .card-heading{
+	width: 100%;
+	text-align: center;
+    position: absolute;
+    transform: translate(0%, 40%);
+    top: 40%;
+    left: 0%;
+}
+
+.what-we .card .card-heading .card-title{
+	font-size: 20px;
+	line-height: 1.4em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.what-we .card .long-arrow{
+	width: 100%;
+}
+
+.what-we .card .long-arrow img{
+	position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(50%, 50%);
+}
+
+/*what-we-do css start here*/
+
+
+/*our-attorney css start here*/
+
+.our-attorney{
+	width: 100%;
+	padding: 120px 0px;
+	background: url("../images/our-bg.png") center top no-repeat;
+	background-size: cover;
+}
+
+.our-attorney .title{
+	margin: 90px 0px 0px;
+}
+
+.our-attorney .title h1{
+	color: #fff;
+	font-size: 44px;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 20px
+}
+
+.our-attorney .title p{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+}
+
+.our-attorney .title .btn-link{
+	padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f2622c;
+}
+
+.our-attorney .title .btn-link:hover{
+	color: #fff;
+	transition: 1s;
+}
+
+.our-attorney .title .btn-link:focus{
+	color: #fff;
+}
+
+.our-attorney .card{
+	border-radius: 0px;
+	border: 0px;
+	margin: 0px 0px 20px;
+}
+
+.our-attorney .card .card-img{
+	border-radius: 0px;
+}
+
+.our-attorney .card .card-heading{
+	position: absolute;
+    width: 100%;
+    bottom: 8%;
+    left: 10%;
+}
+
+.our-attorney .card .card-heading .card-title{
+	font-size: 20px;
+	line-height: 1.4em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+/*our-attorney css end here*/
+
+/*languages css start here*/
+
+.languages{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.languages .title{
+	text-align: center;
+	padding: 0px 0px 60px;
+}
+
+.languages .inner-laguages{
+	width: 100%;
+	padding: 20px;
+}
+
+.languages .inner-laguages h4{
+	color: #28377e;
+	font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 20px
+}
+
+.languages .inner-laguages p{
+	font-size: 13px;
+	line-height: 1.7em;
+	color: #b0b0b1;
+}
+
+.languages .inner-laguages .btn-link{
+	padding: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f2622c;
+}
+
+.languages .inner-laguages .btn-link:hover{
+	color: #28377e;
+	transition: 1s;
+}
+
+.languages .inner-laguages .btn-link:focus{
+	color: #28377e;
+}
+/*languages css end here*/
+
+/* contact css start here */
+
+.contact{
+	width: 100%;
+	padding: 80px 0px;
+	background: #28377e;
+}
+
+.contact .title{
+	text-align: center;
+	padding: 0px 0px 60px;
+}
+
+.contact .title h1{
+	color: #fff;
+}
+
+.contact-form{
+	width: 100%;
+}
+
+.contact-form .form-control{
+	background: transparent;
+	color: #fff;
+	border-radius: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #fff;
+	padding: 20px 0px;
+	
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+	color: #fff;
+}
+
+
+.contact-form .form-control:focus {
+    color: #212529;
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+
+.contact-form .btn-primary{
+	display: inline-block;
+	margin: 20px 0px 0px;
+	padding: 10px 50px;
+	background: #f2622c;
+	color: #fff;
+	border-radius: 0px;
+	border: 1px solid #f2622c;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+.contact-form .btn-primary:hover{
+	background: #fff;
+	color: #f2622c;
+	border: 1px solid #f2622c;
+}
+
+.contact-form .btn-primary:focus{
+	background: #fff;
+	color: #f2622c;
+	border: 1px solid #f2622c;
+}
+/* contact css end here */
+
+/*copyright css start here*/
+
+.copyright{
+	width: 100%;
+	padding: 30px 0px;
+	background: #0c1234;
+}
+
+.copyright p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #b1b7dd;
+	margin: 0px;
+}
+
+.copyright p a{
+	display: inline-block;
+	text-decoration: none;
+	color: #b1b7dd;
+	letter-spacing: 1px;
+}
+
+.copyright p a:hover{
+	color: #f2622c;
+	transition: 1s;
+}
+
+.copyright .social-icons{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+}
+
+.copyright .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+
+.copyright .social-icons li a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	color: #b1b7dd;
+	background: transparent;
+}
+
+.copyright .social-icons li a:hover{
+	background: transparent;
+	color: #f2622c;
+	transition: 1s;
+}
+
+/*copyright css end here*/
